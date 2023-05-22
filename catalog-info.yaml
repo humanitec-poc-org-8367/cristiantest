@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "cristian-test"
+  annotations:
+    "humanitec.com/orgId": "htc-demo-05"
+    "humanitec.com/appId": "cristian-test"
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: experimental
